@@ -1,0 +1,193 @@
+/*theme by Waqas*/ 
+
+/*common css - type 1*/ 
+
+/*date: 25 oct 2018*/ 
+
+
+
+body {background:#e1e1e1;margin:0;padding:0;position:relative;color:#444}
+
+body:before {content:"";background:#d1d1d2;width:50%;position:absolute;top:0;left:0;bottom:0;z-index:-1}
+
+#header {margin:0;padding:0;text-align:center}
+
+.heading {text-transform:uppercase;font-weight:bold;font-size:small;margin:0 7px;padding:10px 0;}
+
+.description {background:#FF0000;margin:0 7px;font-size:small;font-weight:bold;padding:8px 0;color:#fefefe;}
+
+#navigation {background:#fff;margin:0 7px;padding:0;text-align:center;width:inherit}
+
+#navigation span {display:inline-table;width:30%;margin:0;padding:9px 0;text-align:center}
+
+#navigation span a {content:"Home"}
+
+#navigation span+span a {content:"About"}
+
+#navigation span+span+span a {content:"Menu"}
+
+#top-content {background:#fff;margin:7px;padding:7px;text-align:center}
+
+#search-form [type=text] { width:60%;background:#fffeff;padding:3px;margin:1px;color:#333;border:1px solid #d1d1d1}
+
+#search-form [type=submit] {;width:23%;margin:1px;padding:3px;border:0;color:#ffe;background:#FF0000}
+
+.post:first-child {background:#fff;margin:7px;padding:0;position:relative}
+
+.post:first-child .post-meta {margin:0;padding:13px 7px;border-bottom:1px solid #dfdfdf;color:#aaa}
+
+.post:first-child .post-meta .title {margin:0;padding:0;font-size:small;font-weight:bold}
+
+.post:first-child .post-content {margin:0;padding:9px 7px;color:#444;font-size:small !important}
+
+.post:first-child .thumbnail {border:1px solid #aaa !important;margin:2px 4px 0 0 !important;width:50px !important;height:50px !important;padding:1px !important;background:#fff;}
+
+.post:first-child .post-meta2 {text-align:right;margin:0;padding:12px 7px}
+
+.post:first-child .post-meta2 a {background:#FF0000;color:#fefefe;margin:0;padding:5px 7px}
+
+.post+.post {background:#fff;margin:7px;padding:0;position:relative}
+
+.post+.post .post-content {font-size:0}
+
+.post+.post .thumbnail {display:none !important}
+
+.post+.post .post-meta {margin:0 15% 0 0;padding:15px 0 0 7px;color:#aaa}
+
+.post+.post .post-meta .title {font-size:small;margin:0;padding:0}
+
+.post+.post .post-meta2 {position:absolute;top:0;right:0;bottom:0;margin:0;padding:23px 8px;background:#FF0000}
+
+.post+.post .post-meta2 span {display:none}
+
+#pagination-links {;text-align:center;margin:7px;padding:2px 3px 4px 3px;background:#fff;color:#555}
+
+#pagination-links span {padding:4px 5px;display:inline-block;background:#FF0000;border:1px solid #319dd6;color:#fefefe}
+
+#pagination-links a {padding:4px 5px;display:inline-block;margin-top:2px;text-decoration:none;border:1px solid #d1d1d1}
+
+#pagination-links a:hover {text-decoration: none;}
+
+#navigation-menu,#blogroll, #category-bottom,#blogroll_list,#following-list {background:#333;margin:7px;padding:0 0 1px 0;border-bottom:1px solid #444}
+
+#blogroll h3,#category-bottom h3,#following-list h4,#blogroll_list h4,#navigation-menu h3 {content:none;border-bottom:3px solid #555;margin:0 7px;padding:7px 0}
+
+#navigation-menu h3:before {content:"GET ACCESS";color:#FFF;border-bottom:3px solid #FFF;text-align:right;margin:0 0 -7px 0;padding:7px}
+
+#navigation-menu ul {margin:7px;padding:0;border:1px solid #555}
+
+#navigation-menu li {list-style:none;margin:0;padding:7px;color:#bbb}
+
+#blogroll h3:before {content:"BLOGROLL";color:#eee;border-bottom:3px solid #319dd6;text-align:right;margin:0 0 -7px 0;padding:7px}
+
+#category-bottom h3:before {content:"CATEGORY";color:#eee;border-bottom:3px solid #319dd6;text-align:right;margin:0 0 -7px 0;padding:7px}
+
+#following-list h4:before {content:"FOLLOWING LIST";color:#eee;border-bottom:3px solid #319dd6;text-align:right;margin:0 0 -7px 0;padding:7px}
+
+#blogroll_list h4:before {content:"BLOGROLL LIST";color:#eee;border-bottom:3px solid #319dd6;text-align:right;margin:0 0 -7px 0;padding:7px}
+
+#blogroll ul, #category-bottom ul {border:1px solid #555;margin:7px;padding:0}
+
+#category-bottom li {list-style:none;color:#bbb;padding:7px;margin:7px;text-align:right;background:#222}
+
+#category-bottom li a {float:left}
+
+#blogroll li {list-style:disc inside;color:#bbb;padding:7px;margin:7px;background:#222}
+
+#footer {margin:-7px 7px 0 7px;padding:7px;text-align:center;color:#aaa;background:#222;border-top:1px solid #000}
+
+#footer span {background:transparent !important;border:0 !important;color:#aaa !important;}
+
+#footer h6 {margin:0;padding:0}
+
+.post-single {background:#fff;margin:7px;padding:0;color:#444}
+
+.post-single .post-meta {margin:0;padding:13px 7px;border-bottom:1px solid #dfdfdf;color:#aaa}
+
+.post-single .post-meta .title {margin:0;padding:0;font-size:small;font-weight:bold;color:#319de6}
+
+.categories {margin:0;padding:0;font-size:small}
+
+.post-single .post-content {margin:0;padding:7px}
+
+#share-buttons {text-align:center;margin:10px;padding:0}
+
+#share-buttons a {content:"Share To Facebook";color:#fefefe;background:#FF0000;margin:0;padding:3px}
+
+#recent-posts-list {margin:0;padding:0}
+
+#recent-posts-list h4 {background:#FF0000;color:#fefefe;text-transform:uppercase;margin:0;padding:7px}
+
+#recent-posts-list ol {margin:0;padding:0}
+
+#recent-posts-list li {list-style:disc inside;margin:0;padding:7px}
+
+#next_previous {margin:-1px;padding:5px 8px;text-align:left;} 
+
+#next_previous a {display:inline-block;color:#fefefe} 
+
+.previous {margin:0 1px;padding:5px 7px;content:"Prev";background:#FF0000} 
+
+.next {margin:0 1px;padding:5px 7px;content:"Next";float:right;background:#FF0000} 
+
+.clear {clear:both}
+
+#comments {margin:0;padding:0}
+
+#comments h3 {background:#FF0000;margin:7px;padding:7px;text-transform:uppercase;}
+
+#comments h4, #comments h5 {background:#fff;margin:7px;padding:5px 7px;color:#444}
+
+.comment {margin:7px;padding:0;background:#333}
+
+.comment-header {border-bottom:1px dashed #212121;color:#aaa;margin:0;padding:7px}
+
+.comment-header .title {margin:0 !important;padding:0 !important;background:transparent !important}
+
+.comment-content {border-top:1px dashed #454545;margin:0;padding:7px;color:#bbb}
+
+#comment_form {text-align:left;margin:0;padding:7px;color:#444}
+
+#comment_form textarea{width:80%;margin:2px 0;padding:20px 0;background:#fff;border:1px solid #d5d5d5}
+
+#comment_form input[type=text],.mobile_body
+
+#comment_form select{;width:80%;;margin:2px 0;background:#fff;border:1px solid #d5d5d5;padding:3px 0}
+
+#comment_form [type=submit] {margin:2px 0;background:#FF0000;color:#fefefe;border:1px solid #319dd6;padding:3px}
+
+#navigation-menu li h1, #navigation-menu li h2 {background:#222;margin:-7px;padding:7px;color:#bbb}
+
+#navigation-menu li h3, #navigation-menu li h4 {background:#FF0000;margin:-7px;padding:7px;color:#fefefe}
+
+#navigation-menu li h5, #navigation-menu li h6 {background:#444;margin:-7px;padding:7px;color:#bbb}
+
+.post-content h3,.post-content h5 {background:#FF0000;margin:0;padding:3px;text-shadow:none;border:1px solid #ddd;text-align:center;color:#444}
+
+.post-content h1,.post-content h2 {background:#FF0000;margin:0;padding:3px;text-shadow:none;border:1px solid #ddd;text-align:center;color:#333;font-size:small} .post-content h4 {margin:0;background:#FF0000;border:1px solid #ddd;color:#333;padding:4px;text-align:center;} 
+
+.post-content h4 a {display:inline-table;width:40%;text-shadow:none} 
+
+.post-content h6 {background:#FF0000;padding:6px 5px;color:#FF0000;border-bottom:3px solid #319dd6;margin:0;text-shadow:none} 
+
+.post-content ol,.post-content ul {margin:0;padding:0;background:#FF0000}
+
+.post-content li {list-style:none;margin:0;padding:5px;border-bottom:1px solid #ddd}
+
+.highlight {margin:7px;padding:6px;text-align:center;background:#fff}
+
+#comments ol {margin:0;padding:0}
+
+#comments li {list-style:none;margin:7px;padding:5px;text-align:center;color:#fefefe;background:#434343}
+
+body img {max-width:80%;max-height:80%} 
+
+.post-content,.comment-content {word-wrap:break-word}
+
+a {color:#319de6}
+
+.heading a {color:#111;text-shadow:#fefffe 1px 1px 1px}
+
+.post-content h6 a,#comments h3 a, #navigation-menu li h3 a, #navigation-menu li h4 a, .post-meta2 a {color:#fefefe}
+
+#footer:after {content:"Designed By Moin Awan" !important;margin:0;padding:1px;display:block !important;font-size:small !important;color:#999 !important}
